@@ -1,0 +1,76 @@
+.form-control-sm {
+    min-height: calc(1.5em + .5rem + 2px)!important;
+    padding: .25rem .5rem!important;
+    font-size: .875rem!important;
+    border-radius: .2rem;
+}
+
+.highlighted-temp {
+	background:beige!important;
+	border-radius:5px!important;
+}
+
+.form-label {
+    margin-bottom: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 2px;
+}
+
+table#tab_logic th {
+    font-size: 14px;
+    font-weight: 500;
+	text-align:left!important;
+}
+
+label.d-block.d-sm-none {
+	display:none!important;
+}
+
+a#add_row, a#delete_row, a#download-PDF {
+    text-transform: capitalize;
+}
+
+table#tab_logic_total th {
+    font-size: 14px;
+}
+
+.accept-cookies {
+  background: #d773d4;
+  background: -moz-linear-gradient(-45deg, #d773d4 0%, #81057f 100%);
+  background: -webkit-linear-gradient(-45deg, #d773d4 0%,#81057f 100%);
+  background: linear-gradient(135deg, #d773d4 0%,#81057f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d773d4', endColorstr='#81057f',GradientType=1 );
+  color: white!important;
+  border:none;
+}
+
+.cookie-text {
+  font-family: "Poppins",sans-serif;
+}
+
+div#cookieModal {
+  padding: 30px;
+  border-radius: 5px!important;
+  border: none;
+  background: #343a40;
+  display: none;
+  margin: 0!important;
+  max-width: 500px;
+  position: fixed;
+  width: 90%;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%)!important;
+  -webkit-transform: translateX(-50%)!important;
+  -moz-transform: translateX(-50%)!important;
+  z-index: 99;
+}
+
+#cookieModal .navbar-brand.m-auto {
+  white-space: inherit;
+}
+
+.modal-open {
+  overflow: auto;
+}
